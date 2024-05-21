@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:  #f6cbb1 ;
+  padding: 20px;
+  color: #047c9b;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.checkout-link {
+  display: block;
+  margin: 1em auto;
+  padding: 1em;
+  background-color: #047c9b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.checkout-link:hover {
+  background-color: #e2917b;
+}
